@@ -1,0 +1,24 @@
+Éste es el análisis para la versión no optimizada del algoritmo:
+
+  $Estabilidad$:                Este algoritmo nunca intercambia registros con claves iguales. Por lo tanto es estable.
+  
+  $Requerimientos de Memoria$:  Este algoritmo sólo requiere de una variable adicional para realizar los intercambios.
+  
+  $Tiempo de Ejecución$:        El ciclo interno se ejecuta n veces para una lista de n elementos. El ciclo externo también
+                                se ejecuta n veces. Es decir, la complejidad es $n*n= O(n^2)$. El comportamiento del caso 
+                                promedio depende del orden de entrada de los datos, pero es sólo un poco mejor que el del 
+                                peor caso, y sigue siendo O(n^2).
+  
+  $Ventajas$:
+
+  1. Fácil implementación.
+  2. No requiere memoria adicional.
+
+  $Desventajas$:
+
+  1. Muy lento.
+  2. Realiza numerosas comparaciones.
+  3. Realiza numerosos intercambios.
+
+
+Este algoritmo es uno de los más pobres en rendimiento.
