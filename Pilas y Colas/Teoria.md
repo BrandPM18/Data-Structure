@@ -1,4 +1,6 @@
-# Definimos memoria dinámica
+# Pilas y Colas
+
+## Definimos memoria dinámica
 
 ```cpp
 struct nodopila{
@@ -12,7 +14,7 @@ Declara la variable e inicializamos
 nodo pcima;
 pcima=NULL;
 ```
-## Forma de pila
+# Forma de pila
 ![N|Solid](https://users.dcc.uchile.cl/~bebustos/apuntes/cc30a/TDA/pila.gif)
 ### Esctructura en C++ forma class
 ```cpp
@@ -40,7 +42,7 @@ void apilar(int x){
     pcima=p;
 }
 ```
-#### Desapilar int
+#### Desapilon int
 ```cpp
 int desapilon(){
     pnodopila p;
@@ -189,7 +191,7 @@ int main (){
     }
 }
 ```
-## Cola
+# Cola
 ### Definicion
 > Una cola es una coleccion ordenada de elementos a partir de la cual se puede eliminar elementos de un extremo (llamado frente de la cola) y en la cual también se puede agregar en el otro extremo (llamado final de la cola).
 > A la cola se le conoce como extructura de dato de tipo FIFO (First in first out).
@@ -201,7 +203,7 @@ int main (){
   - Desencolar
   - Determ el primer elemento
   - Determ el ultimo elemento
-# Definimos memoria dinámica
+## Definimos memoria dinámica
 
 ```cpp
 struct nodocola{
@@ -231,7 +233,7 @@ void encolar(int x){
     pfinal=p;
 }
 ```
-#### Desncolar
+#### Desencolar
 ```cpp
 void desencolar(){
     pnodocola p;
